@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Kalnia:wght@500&family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;1,400;1,500;1,700&family=Rubik:ital,wght@1,300&family=Whisper&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif, cursive;
+    font-weight: 400;
+    font-style: Regular;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.containerGif {
+    max-width: 100%;
+    padding: 10px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    margin-top: -1%;
+}
+
+.search-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.search-input {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: transparent;
+    width: 15%;}
+
+.search-button {
+    padding: 3px 10px;
+    font-size: 16px;
+    margin-left: -15px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+}
+
+.gif-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gif-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.gif-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.like-button {
+    color: rgb(63, 53, 53);
+    font-size: 14px;
+    cursor: pointer;
+    border: transparent;
+    border-radius: 50px;
+}
+
+.loader {
+    text-align: center;
+    margin: 20px;
+}
+
+.liked,
+.logout {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-weight: 450px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    top: 2%;
+}
+
+.logout {
+    right: 2%;
+}
+
+@media screen and (max-width: 430px) {
+    .search-input {
+        width: 10%; 
+    }
+
+    .search-button {
+        padding: 3px -20px; 
+        margin-left: -10px;
+    }
+
+    .liked,
+    .logout {
+        font-size: 14px;
+        padding: 3px 8px;
+    }
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Kalnia:wght@500&family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;1,400;1,500;1,700&family=Rubik:ital,wght@1,300&family=Whisper&display=swap');
+
+* {
+    color: white;
+    font-family: 'Playfair Display', serif, cursive;
+    font-weight: 400;
+    font-style: Regular;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container {
+    background-image: url(https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?w=740&t=st=1702985771~exp=1702986371~hmac=53fac40b5467c92aa4d58a471e7730d38864261ac910ed129bdcd31589f79f23);
+    background-color: #282c35;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    margin: 4px;
+    width: 80%; 
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    outline: none;
+}
+
+button {
+    padding: 12px 60px;
+    margin: 5px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+h3 {
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    input {
+        width: 90%; 
+    }
+}
+
+@media screen and (min-width: 768px) {
+    input {
+        width: 50%; 
+    }
+}

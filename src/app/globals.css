@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Kalnia:wght@500&family=Lato:wght@300;400;700&family=Rubik:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Kalnia:wght@500&family=Lato:wght@300;400;700&family=Rubik:ital,wght@1,300&family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Kalnia:wght@500&family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;1,400;1,500;1,700&family=Rubik:ital,wght@1,300&family=Whisper&display=swap');
+
+body {
+    background-color: #3a4a4d;
+    overflow: hidden;
+}
+
+.homepage {
+    color: rgb(49, 37, 37);
+    font-family: "Gilroy";
+    text-align: center;
+    height: 95vh;
+    width: 100vw;
+    font-size: 2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.user .sign {
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid rgb(3, 3, 3);
+    padding: 5px 13px;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgba(64, 107, 107, 0.658);
+    border: 1px solid rgba(55, 92, 92, 0.658);
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: -5%;
+    margin-top: 5%;
+}
+
+.center {
+  
+    display: flex;
+    justify-content: space-between;
+    height: 75vh;
+    width: 100vw;
+    margin-top: 4%;
+}
+
+.centerL {
+    height: 75vh;
+    width: 50vw;
+}
+
+.centerL h1 {
+    font-size: 60px;
+    text-align: center;
+    padding: 10px 12px;
+    color: whitesmoke;
+    font-family: 'Playfair Display', serif, cursive;
+    font-weight: 500;
+    font-style: Regular;
+}
+
+.centerL p {
+    color: rgb(241, 237, 237);
+    font-size: 18px;
+    width: 80%; /* Adjust width for smaller screens */
+    text-align: center;
+    padding: 10px 20px;
+    font-family: 'Playfair Display', serif, cursive;
+    font-weight: 400;
+    font-style: Regular;
+}
+
+.centerR {
+    position: relative;
+    height: 75vh;
+    width: 50vw;
+}
+
+.centerR img {
+    z-index: 1;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 430px) and (max-height: 932px) {
+  body{
+    overflow: hidden;
+  }
+  .homepage {
+    font-size: 3vw; 
+  }
+
+  .user .sign {
+    font-size: 16px;margin-top: 15%;margin-left: 5%; 
+  }
+
+  .center {
+    flex-direction: column; 
+    align-items: center; 
+   
+  }
+
+  .centerL {
+    width: 70%; 
+  }
+
+  .centerL h1 {
+    font-size: 8vw; 
+  }
+
+  .centerL p {
+    font-size: 3vw; 
+    width: 100%; 
+  }
+
+  .centerR {
+    width: 100%; 
+  }
+
+  .centerR img {
+    height: 50vh;
+  }
+}
+
